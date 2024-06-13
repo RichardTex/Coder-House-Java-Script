@@ -67,7 +67,7 @@ while(seleccion != "no"){
     while (seleccion === "no"){
         alert("gracias por la compra! nos vemos luego")
         carrito.forEach((carritoFinal) => {
-            console.log(`producto:${carritoFinal.producto}, unidades: ${carrito.unidades}, total a pagar de los productos ${carritoFinal.unidades * carritoFinal.precio}`)
+            console.log(`producto:${carritoFinal.producto}, unidades: ${carritoFinal.unidades}, total a pagar de los productos ${carritoFinal.unidades * carritoFinal.precio}`)
         })
         break;
     }
